@@ -1,0 +1,83 @@
+.navi {
+    display: flex;
+   
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+    margin: 0px;
+    border: 0px solid black;
+    background: black;
+}
+
+/* @font-face {
+    font-family: myfirstFont;
+    src: url(sansation_light.woff);
+} */
+
+.navi a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navi a:hover {
+    color: orangered;
+}
+.parent {
+    margin: 0px;
+    padding: 0%;
+}
+
+/* .App {
+    display: flex;
+   
+    background-color: grey;
+} */
+
+.mainNav {
+    display: flex;
+    /* border: 2px solid black; */
+    list-style: none;
+    align-items: center;
+    height: 50px;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0.815) ;
+    margin: 0px;
+}
+
+.mainNav a {
+    text-decoration: none;
+    display: block;
+    /* padding: 15px; */
+    gap: 1px;
+    font-weight: bold;
+    color: beige;
+}
+
+.mainNav a:hover {
+    color: rgb(243, 147, 3);
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    padding-left:40px;
+    background-color: rgba(0, 0, 0, 0.815);
+}
+.mainContent h1 {
+    color: white;
+}
+
+   
+.mainContent p {
+    display: flex;
+    /* border: 2px solid black; */
+    font-size:x-large;
+    width: 50%;
+    color: white;
+    
+}
